@@ -8,5 +8,5 @@ setInterval(()=>{
 
 setInterval(()=>{
     let date = new Date();
-    document.getElementById('date').innerHTML = `${date.getUTCDate()}/${date.getMonth()}/${date.getFullYear()}` ;
+    document.getElementById('date').innerHTML = `${date.getUTCDate()}/${date.getMonth()+1}/${date.getFullYear()}` ;
 }, 1000)
